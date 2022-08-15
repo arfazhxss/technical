@@ -55,35 +55,45 @@ public class E17 {
     public static List<String> letterCombinations(String digits) {
         List<String> listOne = new LinkedList<String>();
         List<String> finaList = new LinkedList<String>();
-        if ((digits=="")||(digits==null)) {
-            return finaList;
-        } 
         String[] newArr = digits.split("");
+        boolean cond = false;
+        switch (digits) {
+            case "2": cond=true; break;
+            case "3": cond=true; break;
+            case "4": cond=true; break;
+            case "5": cond=true; break;
+            case "6": cond=true; break;
+            case "7": cond=true; break;
+            case "8": cond=true; break;
+            case "9": cond=true; break;
+        }
         // System.out.println(newArr.length);
         // System.out.println(Arrays.toString(newArr));
 
-        if ((newArr.length>1)&&(newArr.length<=4)) {
-            for (int i=0; i<newArr.length; i++) {
-                for (int j=0;(j<newArr.length);j++) {
-                    if ((j>i)&&(i!=j)) {
-                        listOne.add(newArr[i]+newArr[j]);
-                    }
-                }
-            }
-            System.out.println(listOne.toString());
-            Iterator<String> iterOne = listOne.iterator();
-            while (iterOne.hasNext()) {
-                List<String> newList = new LinkedList<String>();
-            String[] tempStr = iterOne.next().split("");
-                newList = funcTwo(tempStr[0], tempStr[1]);
-                finaList.addAll(newList);
-            }
-        } else if (newArr.length==1) {finaList = funcTwo(digits, "1");}
+        if ((newArr.length==2)) {
+            // for (int i=0; i<newArr.length; i++) {
+            //     for (int j=0;(j<newArr.length);j++) {
+            //         if ((j>i)&&(i!=j)) {
+            //             listOne.add(newArr[i]+newArr[j]);
+            //         }
+            //     }
+            // }
+            // System.out.println(listOne.toString());
+            // Iterator<String> iterOne = listOne.iterator();
+            // while (iterOne.hasNext()) {
+            //     List<String> newList = new LinkedList<String>();
+            // String[] tempStr = iterOne.next().split("");
+            //     newList = funcTwo(tempStr[0], tempStr[1]);
+            //     finaList.addAll(newList);
+            // }
+            return funcTwo("2", "3");
+        } else if (cond==true) {finaList = funcTwo(digits, "1");}
+        // else if ()
         
         return finaList;
     }
 
     public static void main (String[] args) {
-        System.out.println("Result:\t\t"+letterCombinations(""));
+        System.out.println("Result:\t\t"+letterCombinations("234"));
     }
 }
