@@ -4,11 +4,20 @@ public class palindromeLinkedList {
         ListNode fast = head;
         ListNode slow = head;
 
+        System.out.print("head1:\t\t");
+        printA(head);
+
         while ((fast!=null)&&(slow!=null)) {
             fast = fast.next.next;
             slow = slow.next;
         }
         ListNode temp = reverseLinkedList (slow);
+
+        System.out.print("head2:\t\t");
+        printA(head);
+
+        System.out.print("temp:\t\t");
+        printA(temp);
 
         while (temp!=null) {
             if (temp.val!=head.val) return false;
@@ -36,18 +45,21 @@ public class palindromeLinkedList {
         root.next=curr;
     }
 
-    // public static void printA (ListNode root) {
-    //     ListNode curr = root;
-    //     while (curr.next!=null) {
-    //         System.out.println(curr.val);
-    //         curr=curr.next;
-    //     }
-    // }
+    public static void printA (ListNode root) {
+        ListNode curr = root;
+        do {
+            System.out.print(curr.val+" ");
+            curr=curr.next;
+        } while (curr!=null);
+
+        System.out.println("[]");
+    }
     public static void main(String[] args) {
         ListNode mainlist = new ListNode(1, null);
         addA(mainlist, 2);
         addA(mainlist, 2);
         addA(mainlist, 1);
-        System.out.println(isPalindrome(mainlist));
+        // printA(mainlist);
+        System.out.println("ActualValue:\t"+isPalindrome(mainlist));
     }
 }
