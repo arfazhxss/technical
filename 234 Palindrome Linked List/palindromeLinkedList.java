@@ -7,10 +7,12 @@ public class palindromeLinkedList {
         System.out.print("head1:\t\t");
         printA(head);
 
-        while ((fast!=null)&&(slow!=null)) {
+        while (fast.next!=null) {
             fast = fast.next.next;
             slow = slow.next;
         }
+        
+        // TestCode//ListNode temp = null;
         ListNode temp = reverseLinkedList (slow);
 
         System.out.print("head2:\t\t");
@@ -32,9 +34,9 @@ public class palindromeLinkedList {
         ListNode out=null;
         while (root!=null) {
             ListNode temp = root.next;
-            root.next = out;
-            out = root;
-            root = temp;
+            root.next = out; // -----------------------------------> This makes the main head linkedList cut out, since in out arr [1,2,3,4,5,4,3,2,1], 
+            out = root;      //                                         slow is stuck at 5, which is passed as a parameter as 'root', the next of root is slayed to 'null'
+            root = temp;     //                                         cutting the main 'head' linkedlist into one [1,2,3,4,5].
         }
         return out;
     }
@@ -57,6 +59,11 @@ public class palindromeLinkedList {
     public static void main(String[] args) {
         ListNode mainlist = new ListNode(1, null);
         addA(mainlist, 2);
+        addA(mainlist, 3);
+        addA(mainlist, 4);
+        addA(mainlist, 5);
+        addA(mainlist, 4);
+        addA(mainlist, 3);
         addA(mainlist, 2);
         addA(mainlist, 1);
         // printA(mainlist);
