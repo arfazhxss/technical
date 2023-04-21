@@ -33,11 +33,11 @@ public class palindromeLinkedList {
         return true;
     }
 
-    public static ListNode reverseLinkedList(ListNode root) {
-        ListNode out = null;
-        while (root != null) {         // I                                     // II                                       // III
-            ListNode temp = root.next; // (out) null (root) 5...1 (temp) 4...1  // (out) 5, null (root) 4...1 (temp) 3...1  // (out) 4, 5, null (root) 3...1 (temp) 2...1
-            root.next = out;           // (root) 5, null                        // (root) 4, 5, null                        // (root) 4, 5, null
+    public static ListNode reverseLinkedList(ListNode located) {
+        ListNode storage = null;
+        while (root != null) {         // I (storage) null               // II (storage) 5, null           // III (storage) 4, 5, null  -----> (storage) 2, 3, 4, 5, null  
+            ListNode temp = root.next; // (root) 5...1 (temp) 4...1      // (root) 4...1 (temp) 3...1      // (root) 3...1 (temp) 2...1 -----> (root) 1 (temp) null
+            root.next = out;           // (root) 5, null                 // (root) 4, 5, null              // (root) 4, 5, null         -----> (root) 1, 2, 3, 4, 5, null  
         /* 
         This makes the main head 
         linkedList cut out, since in the 
@@ -48,10 +48,10 @@ public class palindromeLinkedList {
         'null'  cutting the main 'head' 
         linkedlist into one [1,2,3,4,5]. 
         */
-            out = root;                 // (out) 5, null                        // (out) 4, 5, null                         // (out) 3, 4, 5, null
-            root = temp;                // (root) 4...1                         // (root) 3...1                             // (root) 2...1
+            storage = root;             // (storage) 5, null            // (storage) 4, 5, null             // (storage) 3, 4, 5, null  -----> (storage) 1, 2, 3, 4, 5, null
+            root = temp;                // (root) 4...1                 // (root) 3...1                     // (root) 2...1             -----> (root) null
         }
-        return out;
+        return storage;
     }
 
     // TEST
