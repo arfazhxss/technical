@@ -24,12 +24,35 @@ public class E125 {
         return true;
 
     }
+
+    public static boolean isPalindromeTwo (String s)
+    {
+        s=s.toLowerCase();
+        int start = 0;
+        int end = s.length()-1;
+        while (start<end)
+        {
+            while ((start<end)&&(!Character.isDigit(s.charAt(start)))&&(!Character.isLetter(s.charAt(start)))) {start++;}
+            while ((start < end) && (!Character.isDigit(s.charAt(end))) && (!Character.isLetter(s.charAt(end)))) {end--;}
+
+            if (start>=end) break;
+            if ((s.charAt(start))!=(s.charAt(end))) {return false;}
+            start++;
+            end--;
+        }
+        return true;
+    }
     public static void main(String[] args) {
         System.out.println(" - - E125 Test1 - - \n");
         String testStringOne = "A man, a plan, a canal: Panama";
         String testStringTwo = "race a car";
         System.out.println("["+testStringOne+"]: "+isPalindromeOne(testStringOne));
         System.out.println("[" + testStringTwo + "]: " + isPalindromeOne(testStringTwo));
+        System.out.println("\n - - - - - - - - - \n\n");
+
+        System.out.println(" - - E125 Test2 - - \n");
+        System.out.println("[" + testStringOne + "]: " + isPalindromeTwo(testStringOne));
+        System.out.println("[" + testStringTwo + "]: " + isPalindromeTwo(testStringTwo));
         System.out.println("\n - - - - - - - - - ");
     }
 }
