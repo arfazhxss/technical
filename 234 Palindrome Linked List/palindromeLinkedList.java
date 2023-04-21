@@ -35,14 +35,21 @@ public class palindromeLinkedList {
 
     public static ListNode reverseLinkedList(ListNode root) {
         ListNode out = null;
-        while (root != null) {
-            ListNode temp = root.next;
-            root.next = out; 
-            /* This makes the main head linkedList cut out, since in the main array [1,2,3,4,5,4,3,2,1], 
-            slow is stuck at 5, which is passed as a parameter as 'root', the next of root is slayed to 'null' 
-            cutting the main 'head' linkedlist into one [1,2,3,4,5]. */
-            out = root;
-            root = temp; 
+        while (root != null) {         // I                                     // II                                       // III
+            ListNode temp = root.next; // (out) null (root) 5...1 (temp) 4...1  // (out) 5, null (root) 4...1 (temp) 3...1  // (out) 4, 5, null (root) 3...1 (temp) 2...1
+            root.next = out;           // (root) 5, null                        // (root) 4, 5, null                        // (root) 4, 5, null
+        /* 
+        This makes the main head 
+        linkedList cut out, since in the 
+        main array [1,2,3,4,5,4,3,2,1],  
+        slow is stuck at 5, which is 
+        passed as a parameter as 'root', 
+        the next of root is slayed to 
+        'null'  cutting the main 'head' 
+        linkedlist into one [1,2,3,4,5]. 
+        */
+            out = root;                 // (out) 5, null                        // (out) 4, 5, null                         // (out) 3, 4, 5, null
+            root = temp;                // (root) 4...1                         // (root) 3...1                             // (root) 2...1
         }
         return out;
     }
@@ -63,7 +70,7 @@ public class palindromeLinkedList {
             curr = curr.next;
         } while (curr != null);
 
-        System.out.println("[]");
+        System.out.println("[end]");
     }
 
     public static void main(String[] args) {
