@@ -19,7 +19,8 @@ public class E118 {
     }
     public static void main(String[] args) {
         System.out.println(" - - E118 Test - - \n");
-
+        int rows = 4;
+        System.out.println("For size "+rows+" we have:\n"+generate(rows));
         System.out.println("\n - - - - - - - - - \n\n");
     }
 }
