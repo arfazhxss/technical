@@ -11,7 +11,7 @@ public class E118 {
             innerList.add(0,1); // index, object
             for (int j=1; j<innerList.size()-1; j++)
             {
-                innerList.set(j,(innerList.get(j)+innerList.get(j+1)));
+                innerList.set(j,(innerList.get(j)+innerList.get(j+1))); // index, object
             }
             outerList.add(new ArrayList<>(innerList));
         }
