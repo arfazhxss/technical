@@ -1,3 +1,4 @@
+// SOLVED FROM 2022, Actual 1
 class E9 {
     public static boolean isPalindrome(int x) {
         String str0 = Integer.toString(x);
