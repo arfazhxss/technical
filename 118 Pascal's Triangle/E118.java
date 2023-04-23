@@ -10,8 +10,7 @@ public class E118 {
             System.out.println("innerList.get(0)=" + innerList.get(0) + "\n");
             for (int j = 1; j < innerList.size() - 1; j++) {
                 System.out.println("InnerList " + i + " size:" + innerList.size());
-                // System.out.println("For
-                // j="+j+"\n\tinnerList.get(j)="+(innerList.get(j))+"\n\t\tinnerList.get(j+1)="+innerList.get(j+1));
+                // System.out.println("For j="+j+"\n\tinnerList.get(j)="+(innerList.get(j))+"\n\t\tinnerList.get(j+1)="+innerList.get(j+1));
                 innerList.set(j, (innerList.get(j) + innerList.get(j + 1))); // index, object
             }
             outerList.add(new ArrayList<>(innerList));
