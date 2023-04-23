@@ -8,7 +8,25 @@ public class TreeNode {
 
     public TreeNode(int val) {
         this.val = val;
+        this.left = null;
+        this.right = null;
         this.children = new ArrayList<TreeNode>();
+    }
+
+    public TreeNode getLeft() {
+        return this.left;
+    }
+
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
+
+    public TreeNode getRight() {
+        return this.right;
+    }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
     }
 
     public void addChild(TreeNode child) {
