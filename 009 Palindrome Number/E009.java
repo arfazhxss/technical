@@ -18,7 +18,7 @@ public class E009 {
             num=num/10;
             y=y*10+rem;
         } 
-        return true;
+        return y==x;
     }
 
     public static void main(String[] args) {
