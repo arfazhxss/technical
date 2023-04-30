@@ -1,8 +1,6 @@
-import javax.xml.stream.events.StartDocument;
-
 public class E1047 {
     public String removeDuplicates (String S) {
-        char[] stack = new chr[S.length()];
+        char[] stack = new char[S.length()];
         int i = 0;
 
         for (int j=0; j<S.length(); j++) {
