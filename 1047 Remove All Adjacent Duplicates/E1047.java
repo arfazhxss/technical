@@ -1,3 +1,5 @@
+import javax.xml.stream.events.StartDocument;
+
 public class E1047 {
     public String removeDuplicates (String S) {
         char[] stack = new chr[S.length()];
@@ -13,5 +15,8 @@ public class E1047 {
             }
         }
         return new String(stack, 0, i);
+    }
+    public static void main(String[] args) {
+        System.out.println("E1047: No Test Implemented");
     }
 }
