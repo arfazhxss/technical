@@ -22,8 +22,7 @@ public class E412 {
         return output;
     }
     public static void main(String[] args) {
-        System.out.println("E412: Test Implemented Below:");
-        fizzBuzz(5);
-        System.out.println("Task NOT Accomplished");
+        System.out.println("E412: Test Implemented Below:\n\n"+fizzBuzz(6)+"\n\n");
+        System.out.println("Task Accomplished");
     }
 }
