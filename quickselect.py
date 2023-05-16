@@ -10,5 +10,6 @@ def quickSelect(l, r):
         p += 1
     nums[p], nums[r] = nums[r], nums[p]
     
-    if p > k: quickSelect(l, p - 1)
+    if p > k: return quickSelect(l, p - 1)
+    elif p<k: return quickselect(p+1, r)
 
