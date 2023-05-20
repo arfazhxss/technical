@@ -15,7 +15,7 @@ public class Solution {
                 if (currTotal<neededTotal) {++leftPointer;} // checking if that number comes down to the needed number without the pivot: if more, increase the left pointer!
                 else if (currTotal>neededTotal) {--rightPointer;}   // checking if that number comes down to the needed number without the pivot: if less, decrease the right pointer!
                 else { // this is in case they both add upto the expected sum
-                    finalList.add(List.of(nums[i],nums[leftPointer],nums[rightPointer]));
+                    finalList.add(List.of(nums[i],nums[leftPointer],nums[rightPointer])); // we add that combination to the final List of all 
                     ++leftPointer;
                     while ((leftPointer<rightPointer)&&(nums[leftPointer]==nums[leftPointer-1])) {++leftPointer;}}
             }
