@@ -15,7 +15,7 @@ if [[ -z "$commit_message" || ${#commit_message} -lt 3 ]]; then
 else
   git add . && \
   git add -u && \
-  git commit -m $"$commit_message"$'\nScheduled Commit by @arfazhxss on '"$(date +'%a %d %b %Y')" && \
+  git commit -m $"$commit_message"$'\Commit by @arfazhxss on '"$(date +'%a %d %b %Y')" && \
   git push origin HEAD
   git log > commit-hist.txt
   rm -rf .DS_Store/
