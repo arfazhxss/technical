@@ -13,7 +13,7 @@ public class E13 {
                 case "D": {numerals[i]=500; break;}
                 case "M": {numerals[i]=1000; break;}
             }
-        System.out.println("numerals["+i+"]"+"\t"+numerals[i]);
+        // System.out.println("numerals["+i+"]"+"\t"+numerals[i]);
         }
         for (int i=0; i<numerals.length;i++) {
             if (((i+1)!=(numerals.length))&&(numerals[i+1]>numerals[i])) {
@@ -25,7 +25,7 @@ public class E13 {
     }
 
     public static void main (String[] args) {
-        String arg = "LVIII";
+        String arg = "MDCCCXLII";
         System.out.println("\""+arg+"\""+" prints out:\t"+romanToInt(arg));
     }
 }
