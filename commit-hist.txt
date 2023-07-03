@@ -1,3 +1,10 @@
+commit bd622b7cc0cbb29a12c2c2ee5649874ff9039a32
+Author: arfazhxss <arfazhussain@uvic.ca>
+Date:   Sun Jul 2 18:03:02 2023 -0700
+
+    Bash Script Update Version 5
+    Commit by @arfazhxss on Sun 02 Jul 2023
+
 commit 0747270fd9c9280f57151993f57bbb1ceabbf84a
 Author: arfazhxss <arfazhussain@uvic.ca>
 Date:   Tue Jun 27 23:45:47 2023 -0700
