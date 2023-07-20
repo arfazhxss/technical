@@ -6,8 +6,6 @@ public class Solution {
         int magnum = magnumOne+magnumTwo;
         int size = actualString.length;
         int traversedCount = size;
-        // System.out.println("size:\t"+size);
-        // System.out.println("magnum:\t"+magnum);
 
         String newString = "";
                                                                 // 6 ->     10;     8,2;    6,4;    4,6;    2,8;    10
@@ -33,14 +31,11 @@ public class Solution {
                 j = magnumTemp;
                 while (i<size) {
                     if (i!=j) {       
-                        // System.out.println("2");         
                         newString+=actualString[i];
                         --traversedCount;
-                        // System.out.println("i:["+i+"]\taddedChar:["+actualString[i]+"]");
                         if (j<size) {
                             newString+=actualString[j];
                             --traversedCount;
-                            // System.out.println("j:["+j+"]\taddedChar:["+actualString[j]+"]");
                         }
                     }
                     // System.out.println("M/O: "+magnumOne);
@@ -54,10 +49,6 @@ public class Solution {
                         // System.out.println("222: i: "+i+"\tj: "+j);
                     }      
                 }
-                // System.out.println();
-                // System.out.println();
-                // System.out.println();
-                // System.out.println();
                 ++magnumTemp;
             }
 
