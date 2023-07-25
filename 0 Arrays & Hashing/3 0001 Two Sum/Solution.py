@@ -39,7 +39,7 @@ def test_two_sum_1():
     """
     Test for the `twoSum` method with a small list and a target that has a solution.
     """
-    sol = Solution4()
+    sol = Solution()
     listOfIntegers = [2, 7, 11, 15]
     target = 9
     assert sol.twoSum(listOfIntegers, target) == [0, 1]
@@ -48,7 +48,7 @@ def test_two_sum_2():
     """
     Test for the `twoSum` method with a small list and a target that has a solution.
     """
-    sol = Solution4()
+    sol = Solution()
     listOfIntegers = [3, 2, 4]
     target = 6
     assert sol.twoSum(listOfIntegers, target) == [1, 2]
@@ -57,7 +57,7 @@ def test_two_sum_3():
     """
     Test for the `twoSum` method with a small list and a target that has a solution.
     """
-    sol = Solution4()
+    sol = Solution()
     listOfIntegers = [3, 3]
     target = 6
     assert sol.twoSum(listOfIntegers, target) == [0, 1]
@@ -66,7 +66,7 @@ def test_two_sum_4():
     """
     Test for the `twoSum` method with a larger list and a target that has a solution.
     """
-    sol = Solution4()
+    sol = Solution()
     listOfIntegers = [1, 2, 3, 4, 5]
     target = 9
     assert sol.twoSum(listOfIntegers, target) == [3, 4]
