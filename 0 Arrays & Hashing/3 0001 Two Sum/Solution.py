@@ -1,6 +1,6 @@
 from typing import List
 
-class Solution4:
+class Solution:
     def twoSum(self, listOfIntegers: List[int], target: int) -> List[int]:
         """
         Given a list of integers `listOfIntegers` and an integer `target`, 
