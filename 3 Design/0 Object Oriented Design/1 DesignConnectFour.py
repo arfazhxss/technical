@@ -1,3 +1,10 @@
+import enum
+
+class GridPosition(enum.Enum):
+    EMPTY = 0
+    YELLOW = 1
+    RED = 2
+
 class Grid:
     def __init__(self, rows, columns):
         self._rows = rows
