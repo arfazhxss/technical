@@ -12,6 +12,10 @@ class Solution1:
             if countS[c] != countT.get(c, 0): 
                 return False
         
+        # Dictionary Test
+        # if s == "anmnagramgr":
+        #     print("countS:", countS)
+
         return True
 
 def test_case_1():
@@ -28,8 +32,8 @@ def test_case_2():
 
 def test_case_3():
     sol = Solution1()
-    s = "anagram"
-    t = "nagaram"
+    s = "anmnagramgr"
+    t = "nagmargrnam"
     assert sol.isAnagram(s, t) == True
 
 def test_case_4():
