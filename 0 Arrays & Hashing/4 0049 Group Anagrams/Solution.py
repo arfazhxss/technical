@@ -15,17 +15,25 @@ class Solution1:
         
         return list(res.values) # O (m * n * 26)
 
-class Solution2:
+# myfav solution
+class Solution2: # ["cat", "dog", "tac", "god", "act"]
     def groupAnagrams (self, strs: list[str]) -> list[list[str]]:
         anagramMap = defaultdict(list)
         result = [] # list
 
         for string in strs:
-            sortedStrings = tuple(sortedStrings) # from list (mutable) to tuple (immutable)
-            anagramMap[sortedStrings].append(string)
+            sortedStrings = tuple(sorted(string)) # string "cat" to sorted tuple ('a','c','t')
+            anagramMap[sortedStrings].append(string) # for "cat", it will just create a key:value entry
+            # The key would be the current sortedString ('a','c','t') which would now only have ["cat"]
+            # When "tac" and "act" would come, the sortedString would also look like ('a','c','t')
+            # so the .append(string) would append these two strings as -->
+            #                  { ('a', 'c', 't'): ['cat', 'tac', 'act'] }
         
-        for value in anagramMap.values():
-            result.append(value)
+        for value in anagramMap.values(): # key:value pair
+            # VALUEs --> ['cat', 'tac', 'act'] and ['dog', 'god']
+            result.append(value) 
+            # After Append --> [ ['cat', 'tac', 'act'], ['dog', 'god'] ]
+            # A 2D List/Array
         
         return result
     
