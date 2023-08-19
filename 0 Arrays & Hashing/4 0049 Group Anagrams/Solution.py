@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+# neetcode
 class Solution1:
     def groupAnagrams (self, strs: list[str]) -> list[list[str]]:
         res = defaultdict(list) # mapping charCount to List of Anagrams # Create a defaultdict with default values # stores lists of lists / groups of groups
@@ -17,7 +18,7 @@ class Solution1:
 class Solution2:
     def groupAnagrams (self, strs: list[str]) -> list[list[str]]:
         anagramMap = defaultdict(list)
-        result = []
+        result = [] # list
 
         for string in strs:
             sortedStrings = tuple(sortedStrings) # from list (mutable) to tuple (immutable)
