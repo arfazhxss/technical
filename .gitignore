@@ -1,4 +1,4 @@
 .DS_Store
 commit-hist.txt
 *.html
-exp*
+*exp*
