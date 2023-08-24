@@ -6,7 +6,7 @@ class Solution:
     def encode(self, strs):
         res = ""
         for s in strs:
-            res += str(len(s)) + "#" + s # "cat" --> "3#cat"
+            res += str(len(s)) + "#" + s 
         return res
 
 
@@ -23,8 +23,7 @@ class Solution:
             while str[j] != "#": 
                 j += 1 
 
-            length = str[i:j]
-            str[j + 1 : j + 1 + length]
+            length = int(str[i:j])
             res.append(str[j + 1 : j + 1 + length])
             i = j + 1 + length
 
@@ -32,7 +31,7 @@ class Solution:
 
 """
     def decode(self, str):
-        res, i = [], 0
+        res, i = [], 0                                  # "cat" --> "3#cat"
 
         while i < len(str):                             # just to clarify --> str is the BIG STRING like "3#cat4#do#g"
             j = i 
@@ -40,10 +39,9 @@ class Solution:
             while str[j] != "#":                        # that is until it reaches the '#' in '3#', j will iterate
                 j += 1                                  # j will only read the numerals before '#'; in our example 3 and 4
                                                         # !! J WILL ALWAYS GRAB THE RIGHT PRE-#-NUMERAL !!
-            length = str[i:j]
-            str[j + 1 : j + 1 + length]
-            res.append(str[j + 1 : j + 1 + length])
-            i = j + 1 + length
+            length = int(str[i:j])                      # length of the next str
+            res.append(str[j + 1 : j + 1 + length])     # next str
+            i = j + 1 + length                          # updating i to the current j
 
         return res
 """
