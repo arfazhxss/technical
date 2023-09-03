@@ -5,8 +5,8 @@ class Solution:
 
         for c in s: # for each character in the string
             if c in closeToOpen: # if the character is either ) or } or ]
-                if stack and stack[-1] == closeToOpen[c]: 
-                    stack.pop() # we're popping stack[-1] aka the last on stack
+                if stack and stack[-1] == closeToOpen[c]: # checking if the closing bracket we found closes the last opening bracket 
+                    stack.pop() # we're popping the last opening brackets on stack if the condition works
                 else:
                     return False # ")....." closing brackets in the beginning
             else:
@@ -19,7 +19,7 @@ class Solution:
     # 
     # 6-13
     # for each letter in the string we are checking if the character is a '('...value...opening bracket or a ')'...key...closing bracket
-    # if it's a closing bracket, then we are popping the opening bracket added into our stack
+    # if it's a closing bracket that matches the last opening bracket, then we are popping the last opening bracket
     #
     # 14 
     # we are only appending OPENING BRACKETS aka ( or { or [
