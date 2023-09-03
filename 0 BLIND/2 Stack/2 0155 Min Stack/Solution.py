@@ -19,15 +19,9 @@ class Solution:
         return self.minStack[-1]
 
 ########################################################
+# 
+# STACK -> push adds to the top, pop deletes from the top
+# Stack can be thinked of as a books stacked on top of each other
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# MinStack -> popping each minimum elements when we pop elements
 #
