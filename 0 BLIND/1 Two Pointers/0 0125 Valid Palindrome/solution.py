@@ -1,4 +1,4 @@
-class solution:
+class Solution:
     # Cheating Solution
     # def isPalindrome (self, s: str) -> bool:
     #     newStr = ""
@@ -13,14 +13,20 @@ class solution:
     def isPalindrome (self, s: str) -> bool:
         l, r = 0, len(s) - 1
 
-        while l<r and not self.alphaNum(s[l]):
-            l+=1
-        while r>1 and not self.alphaNum(s[r]):
-            r-=1
+        # case when there's a non-alphaneumeric
+        while l < r and not self.alphaNum(s[l]):
+            l += 1
+
+        # case when there's a non-alphaneumeric
+        while r > 1 and not self.alphaNum(s[r]):
+            r -= 1
+
         while l < r:
             if s[l].lower() != s[r].lower():
                 return False
-        l, r = l+1, r-1
+        
+        l, r = l + 1, r - 1
+
         return True
 
     def alphaNum(self, c):
