@@ -12,6 +12,8 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts 2D_INTEGER_ARRAY arr as parameter.
 #
+#
+# https://www.hackerrank.com/challenges/diagonal-difference
 
 def diagonalDifference(arr):
     right = 0
