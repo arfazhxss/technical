@@ -1,7 +1,16 @@
+#   Git Workflow
+#   Stable Script 8.1
+#  
+#  Developed for this Github Repository <Technical>
+#  Tested on Fedora 36, Mac M1 and Linux Distributions
+#  One-Keyboard Function(s): Pull/Push, Reset & Sync.
+#  This is an open-source script. Feel free to use it at your own risk.
+# 
+#  2024 @arfazhxss. 
+#
+#  Suggestions/Others: <arfazhxss@duck.com>
+
 #!/bin/bash
-# git workflow v8.0
-# 2024 @arfazhxss
-# Test Version #31
 
 breakStrSize=50
 breakStrIter=$(printf '_%.0s' $(seq 1 "$breakStrSize"))
