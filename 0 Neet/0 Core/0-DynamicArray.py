@@ -1,34 +1,32 @@
 class DynamicArray:
     def __init__(self, capacity):
-        if (capacity < 10):
-            self.capacity = 10
-        else:
-            self.capacity = capacity
+        # if (capacity < 10):
+        #     self.capacity = 10
+        # else:
+        #     self.capacity = capacity
+        self.capacity = capacity
         self.array = [0] * self.capacity
         self.length = 0
 
     def get(self, i: int) -> int:
-        print(self.getSize())
-        if (i < self.getSize()):
-            self.resize()
+        # if (i < self.getSize()):
+        #     self.resize()
         return self.array[i]
 
     def set(self, i: int, n: int) -> None:
         if (i <= self.getCapacity()):
-            print("test")
-            self.array[i-1] = n
-        # print(n)
-        # print(self.array[9])
+            self.array[i] = n
     def pushback(self, n: int) -> None:
-        print(self.getSize())
         self.incSize()
-        if (self.getCapacity()<self.getSize()):
+        if (self.getCapacity() < self.getSize()):
             self.resize()
         self.array[self.getSize()-1] = n
 
     def popback(self) -> int:
+        temp = self.array[self.getSize()-1]
         self.array[self.getSize()-1]=0
         self.decSize()
+        return temp
 
     def resize(self) -> None:
         self.capacity = self.capacity * 2
@@ -48,8 +46,14 @@ class DynamicArray:
 
     def getCapacity(self) -> int:
         return self.capacity
+    
+    def reset(self) -> None:
+        self.capacity = 5
+        self.array = [0] * self.capacity
+        self.length = 0
 
 # Test Cases
+# Dynamic Array
 commands = [
     "Array", 1,
     "getSize",
@@ -75,7 +79,27 @@ commands = [
     "get", 1,
     "popback",
     "getSize",
-    "getCapacity"
+    "getCapacity",
+    "reset"
+
+    "Array", 3, 
+    "pushback", 1, 
+    "pushback", 2, 
+    "pushback", 3, 
+    "get", 0, 
+    "get", 1, 
+    "get", 2,
+    "reset"
+
+    "Array", 4, 
+    "pushback", 1, 
+    "set", 0, 0, 
+    "pushback", 2, 
+    "get", 0, 
+    "get", 1, 
+    "getCapacity", 
+    "popback",
+    "reset"
 ]
 
 dynamic_array = None
@@ -97,11 +121,13 @@ for i, command in enumerate(commands):
     elif command == "get":
         output.append(dynamic_array.array[commands[i+1]])
     elif command == "set":
-        # print("\ncommands[commands.index(command) + 1]:\t", commands[commands.index(command) + 1])
-        # print("commands[commands.index(command) + 1]:\t", commands[commands.index(command) + 2],"\n\n---------")
         dynamic_array.set(commands[commands.index(command) + 1], commands[commands.index(command) + 2])
+    elif command == "reset":
+        print("TESTETSThsbbvhvbfdbdh")
+        dynamic_array.reset()
+        output=[]
 
-# print("\n---\n\tOUTPUT: \t", output)
+print("\n---\n\tOUTPUT: \t", output)
 print("\tMAIN-ARRAY: \t", dynamic_array.array)
 print("\tSize: \t\t", dynamic_array.getSize())
 print("\tCapacity: \t", dynamic_array.getCapacity(),"\n-")
