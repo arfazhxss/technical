@@ -1,5 +1,5 @@
-#   Git Workflow
-#   Stable Script 8.1
+#  Git Workflow
+#  Stable Script 8.1
 #  
 #  Developed for this Github Repository <Technical>
 #  Tested on Fedora 36, Mac M1 and Linux Distributions
