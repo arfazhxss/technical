@@ -15,7 +15,7 @@ class Solution1:
             countT[t[i]] = 1 + countT.get(t[i], 0) 
         # key is s/t[i], we are setting the values using the get() method. 
         # 0 is used for cases --->
-        # ---------->  when a key exist in 'S' doesn't exist but not in T
+        # ----------> when a key exist in 'S' but doesn't exist in T
 
         # now since we already have Hashmaps countS and countT
         # we can iterate through each keys in countS and check 
@@ -27,7 +27,6 @@ class Solution1:
         for c in countS: 
             if countS[c] != countT.get(c, 0): 
                 return False
-
         return True
 
 #################################################################
