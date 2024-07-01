@@ -1,0 +1,10 @@
+a 12-month
+a 12-month or a 16-month
+a 16-month
+a 4, 8 or a 12-month
+a 4, 8, 12 or 16-month
+a 4-month
+a 4-month or an 8-month
+an 8, 12 or a 16-month
+an 8-month
+an 8-month or a 12-month

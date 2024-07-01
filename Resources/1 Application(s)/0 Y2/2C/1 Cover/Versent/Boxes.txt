@@ -1,0 +1,81 @@
+iOS Developer
+
+Weather App		Victoria, British Columbia
+
+Link: github.com/arfazhxss/WeatherAppVariants
+▸ Developed a simple weather application that utilizes the OpenWeather API to provide real-time weather information based on the user's current geolocation coordinates, implementing HTTP requests with async/await to parse weather data from JSON files.
+
+
+
+C Development Project
+
+Autonomous Robot		Victoria, British Columbia
+
+Link: github.com/arfazhxss/robotc
+▸ Collaboratively developed and tested precise motor, sensor, and infrared receiver inputs using C programming language for accurate movement and effective signal tracking of an autonomous robot within a controlled arena.
+
+
+
+Software Engineer in Ground Support Team		Victoria, British Columbia
+
+University of Victoria Rocketry (UVR)
+
+Implementing React components on Xenia-1 (Rocket) based on Figma designs, utilizing NoSQL and MongoDB for database management.
+
+
+
+Graphics Coordinator		Victoria, British Columbia
+
+UVic Engineering Students’ Society
+
+Designing visual resources for posters, social media posts, among other promotional materials, while managing office hours to ensure the availability of the student lounge.
+
+
+
+Customer Service Desk, Grocery Clerk
+
+Save-On-Foods		Victoria, British Columbia
+
+Worked in a team of 6 to 12 members, overseeing store operations, ensuring daily needs were met with demonstrated exceptional customer service by addressing 50 inquiries per shift, achieving a 96% satisfaction
+rate, while efficiently managing inventory with accurate records and timely merchandise management.
+
+
+
+Software Developer
+
+Mini Projects (JavaScript, React, TypeScript) 		Victoria, British Columbia
+
+Link: github.com/arfazhxss/miniprojects
+▸ A list of personal projects I have been working on, as part of my learning milestones for JavaScript, TypeScript, ReactJS, NodeJS and ExpressJS: ‘The Dice Game’, ‘The Number’s Game’, ‘To Do List’.
+
+
+
+
+Website Design and Development
+
+Portfolio Website (HTML, CSS, JavaScript) 		Victoria, British Columbia
+
+Link: github.com/arfazhxss/portfolio-website | arfazhxss.com
+▸ Developed a responsive mobile-first portfolio website utilizing semantic HTML, CSS, Bootstrap, jQuery, and
+JavaScript with a focus on mobile-first approach, user experience, and accessibility.
+
+
+
+
+Desktop Application Development
+
+T-Rex Game (Java)		Victoria, British Columbia
+
+Link: github.com/arfazhxss/T-Rex
+▸ Developed a Java-based version of the popular T-Rex game, utilizing Java Swing library for the user interface and object-oriented principles.
+
+
+
+
+
+Programming Languages : Java, C, C++, Python, Bash
+Application Development : Swift, Visual Studio, XCode
+FrontEnd Design : HTML, CSS, JQuery, JavaScript, TypeScript, ReactJS
+BackEnd Databases : NodeJS, npm, Git, MongoDB, MySQL, postgreSQL
+Design, Test & Development : Figma, Gradle, Selenium, IntelliJ
+Operating Systems : Fedora, Ubuntu, Mac, Windows

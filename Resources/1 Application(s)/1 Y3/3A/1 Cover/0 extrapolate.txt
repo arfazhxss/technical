@@ -1,0 +1,238 @@
+***
+**
+*
+
+(NAME OF ORGANIZATION) - (PLACEMENT ROLE) - Work Placement - May 2023
+
+Cover Letter:
+
+	Format this:	Hussain, Arfaz - Cover Letter - (NAME OF ORGANIZATION) - (PLACEMENT ROLE) - Work Placement - May 2023
+	Into this:	Hussain, Arfaz - Cover Letter - 
+
+Resume:
+
+	Format this:	Hussain, Arfaz - Resume - (NAME OF ORGANIZATION) - (PLACEMENT ROLE) - Work Placement - May 2023
+	Into this:	Hussain, Arfaz - Resume - 
+
+Transcript:
+
+	Format this:	Hussain, Arfaz - UVic Academic Transcript - (NAME OF ORGANIZATION) - (PLACEMENT ROLE) - Work Placement - May 2023
+	Into this:	Hussain, Arfaz - UVic Academic Transcript - Work Placement - May 2023
+
+*
+**
+***
+
+***
+**
+*
+________________________________________________________________________________
+
+Start of conversation 1:
+________________________________________________________________________________
+
+Based on the JOB POSTING and APPLICANT RESUME, find a list of matching bullet points the applicant has in common with the posting. ONLY THE MATCHING POINTS, that is, if there is a point in the posting that isn't reflected in the resume, DON'T put it in the matching bullet points. With each bullet points, point which part in the resume is reflected in that bullet point FOR EACH BULLET POINT - so after each bullets, point me to the applicant resume experience/role/something rather than explaining after putting all the bullet points. 
+________________________________________________________________________________
+
+JOB POSTING:
+________________________________________________________________________________
+
+Qualifications and Skills:
+The ideal candidate will be a junior undergraduate in Software Engineering Technology or Computer Science student, or have the equivalent combination of education and experience.
+
+Job Knowledge Requirements:
+
+Ability to write, design, build, test, and debug software
+Working knowledge of Java, JavaScript, HTML, SQL
+Experience in object-orientated design and implementation
+Software lifecycle and Agile methodologies such as Scrum
+Web services and service-orientation architectures
+
+Competencies:
+Ability to work independently and proactively within a team-oriented environment
+Excellent written and verbal communication skills
+Excellent problem solving skills
+Ability to learn new technologies
+Android App development experience is a plus
+
+Conditions:
+This is an 8 month term position
+To apply for this position please provide a transcript, cover letter and resume outlining how your education and experience makes you an ideal candidate for this role.
+
+Start Date: Sept 5, 2023
+End Date: April 26, 2024
+Application Deadline: June 27, 2023
+Salary range: $3400/month ($22.37 per hour) +4% vacation pay
+Hours per week: 35 hours per week; official office hours are 8:30-4:30 Monday-Friday
+Location: Queenswood Campus, 2474 Arbutus Road, Victoria BC
+
+________________________________________________________________________________
+
+APPLICANT RESUME:
+________________________________________________________________________________
+
+ARFAZ HOSSAIN
+(250) 880 8402 | arfazhussain@uvic.ca | linkedin.com/in/arfazhussain | github.com/arfazhxss www.arfazhxss.com
+KEY COMPETENCIES
+Tools and Languages: C, C++, Java, Kotlin, Swift, HTML, CSS, Python, JavaScript, Git/Bash Development and Design: Visual Studio, Code, Xcode, IntelliJ IDEA, Android Studio, Microsoft Office Skill Development: Swift, Kotlin, Data Structures, Computational Algorithms
+ EDUCATION
+Bachelor of Engineering (B.E.) in Software Engineering Sep 2021 – Current
+ University of Victoria
+Current and Past Coursework: CSC 111-115 (Fundamentals of Programming), CSC 225-226 (Algorithms & Data Structures),
+SENG 265-275 (Software Development and Testing), CSC 230 (Computer Architecture), SENG 310 (Human Computer Interaction) PERSONAL PROJECTS
+ Investment Calculator
+www.github.com/arfazhxss/DCFA
+May 2023 – Current
+▸ Developing an iOS based mobile application using Swift to enable users perform Discount Cash Flow (DCF) analysis of an investment based on current interest rates and real-time market data
+▸ Implementing DCF analysis for accurate valuation of investment based on projected cash flows and discount rates
+▸ Utilizing UIKit libraries to implement responsive and engaging design elements
+▸ Testing and debugging app functionality across iPad and iPhone, ensuring optimal performance and usability
+Portfolio Website Sep 2022 – Current
+www.github.com/arfazhxss/portfolio-website, www.arfazhxss.com
+▸ Developing a responsive portfolio website utilizing semantic HTML, CSS, Bootstrap, jQuery, and JavaScript with a
+focus on mobile-first approach, user experience, and accessibility
+▸ Continuously expanding portfolio with new projects and skills gained throughout my ongoing engineering degree
+IR Sensor Autonomous Robot Jan 2023 – Mar 2022
+www.github.com/arfazhxss/robotc
+▸ Collaboratively built and developed an autonomous VEX Robot as part of the required coursework for Engineering Design and Communication (ENGR120)
+▸ Actively tested precise motor, sensor, and infrared receiver inputs to ensure accurate movement and effective signal tracking within a controlled arena, using the C programming language
+T-Rex Aug 2022 – Oct 2022
+www.github.com/arfazhxss/T-Rex
+▸ Developed a Java-based version of the popular T-Rex game, utilizing Java Swing library for the user interface and object-oriented programming principles to ensure clean and efficient code
+▸ Designed and implemented the game logic with challenging obstacles and progressive difficulty levels
+▸ Implemented Java Stack library for optimizing game performance and ensuring cross-platform compatibility
+▸ Utilized Git version control to manage code changes and track project progress, enabling efficient workflow and
+streamlined development processes
+WORK AND VOLUNTEERING EXPERIENCE
+Software Engineer, Avionics | University of Victoria Rocketry Mar 2023 – Present
+▸ Implemented HTML/CSS components based on Figma designs, currently utilizing React to develop components, utilizing MongoDB for database management.
+
+Graphics Coordinator | UVic Engineering Students’ Society Apr 2023 – Current
+▸ Designing visual resources for posters, social media posts, among other promotional materials, while managing office hours to ensure the availability of the student lounge.
+Skills and Tools: ● Team Collaboration ● Adobe Illustrator ● Adobe Illustrator ● Canva
+
+Customer Service Desk, Grocery Clerk | Save-On-Foods Apr 2022 – Oct 2022
+▸ Worked in a team of up to 12 co-workers, adjusting activities to meet the daily needs of the store
+▸ Managed the stocking and cleaning of shelves and answering an average of 50 customer inquiries per shift, with a
+96% satisfaction rate
+▸ Maintained accurate records of hundreds of restocked and transferred inventory items, ensuring the timely and
+efficient management of merchandise
+Skills and Tools: ● Point Of Sale (POS) System ● Cash Handling ● Inventory Stock, Management
+
+Rescue Volunteer | Bangladesh Animal Welfare Foundation Aug 2019 – May 2021
+▸ Advocated for responsible pet ownership through community outreach, creating a monthly average of 15-20
+posters, brochures, flyers and using Adobe Creative Suit to educate and engage the community in improving the
+welfare of animal
+▸ Worked with teams of 5-7 consisting of mostly volunteers and certified veterinarians from all around the city to help
+rescue an average of 10-15 street animals predominantly dogs into allocated animal shelters each month Skills and Tools: ● Team Collaboration ● Vetenary Treatment ● Adobe Illustrator ● Adobe Premier Pro
+
+FInancial Co-Ordinator | ProjectDebi
+From 1/2019 To 3/2021
+Role Description
+Communicated with Director of Event, Director of Outreach and Social Media Co-Ordinator in various fund raising events arranged by Non-Government Welfare Organization - ProjectDebi to make an extensive report of all the funds collected throughout each events using Microsoft Excel. 
+
+Extra: Have completed a Udemy Coursework on Agile Methodologies, have taken courseworks in understanding SQL Databases.
+________________________________________________________________________________
+
+End Of Conversation 1
+________________________________________________________________________________
+
+*
+**
+***
+
+***
+**
+*
+
+________________________________________________________________________________
+
+Start Of Conversation 2:
+________________________________________________________________________________
+
+for a cover letter, I need to write an entire paragraph based on this requirements (mentioned in ChatGPT_LOOK_AT_THIS_1). The requirements should be matched by you (chatGPT) from my work in my portfolio website (ChatGPT_LOOK_AT_THIS_2)
+
+________________________________________________________________________________
+
+ChatGPT_LOOK_AT_THIS_1:
+________________________________________________________________________________
+
+Matching bullet points between the job posting and the applicant resume:
+
+1. Ability to write, design, build, test, and debug software
+   - Reflected in the personal projects section, specifically in the descriptions of the Investment Calculator, Portfolio Website, IR Sensor Autonomous Robot, and T-Rex projects.
+
+2. Working knowledge of Java, JavaScript, HTML, SQL
+   - Reflected in the tools and languages section of the applicant resume, which mentions Java, JavaScript, HTML, and SQL.
+
+3. Experience in object-oriented design and implementation
+   - Reflected in the personal projects section, particularly in the descriptions of the Investment Calculator, IR Sensor Autonomous Robot, and T-Rex projects, which involve implementing software using object-oriented programming principles.
+
+4. Software lifecycle and Agile methodologies such as Scrum
+   - Mentioned in the extra section of the applicant resume, stating completion of a Udemy coursework on Agile Methodologies.
+
+5. Ability to work independently and proactively within a team-oriented environment
+   - Reflected in the work and volunteering experience section, where the applicant worked as a software engineer for the University of Victoria Rocketry team and as a graphics coordinator for the UVic Engineering Students' Society.
+
+6. Excellent written and verbal communication skills
+   - Not directly reflected in the applicant resume.
+
+7. Excellent problem-solving skills
+   - Not directly reflected in the applicant resume.
+
+8. Ability to learn new technologies
+   - Not directly reflected in the applicant resume.
+
+9. Android App development experience is a plus
+   - Not directly reflected in the applicant resume.
+
+The applicant's resume reflects several of the required qualifications and skills mentioned in the job posting, including their ability to write, design, build, test, and debug software; their knowledge of Java, JavaScript, HTML, and SQL; their experience in object-oriented design and implementation; and their familiarity with Agile methodologies.
+________________________________________________________________________________
+
+ChatGPT_LOOK_AT_THIS_2
+________________________________________________________________________________
+NOW CHATGPT, write me a cover letter paragraph based on this. The paragraph should fit in in the [CHATGPT WRITES THIS PARAGRAPH] in the cover letter given below:
+
+Arfaz Hossain
+Victoria B.C., V8N 2J6
+arfazhussain@uvic.ca | (250) 880 8402 
+
+May 11, 2023
+
+-company-name
+Victoria, British Columbia
+
+Dear Hiring Manager:
+
+I am writing to apply for the role-name placement at -company-name. As someone who is always eager to learn and grow in my field, I believe that this is an excellent opportunity to gain valuable experience and enhance my skills in software development.
+
+I have a deep fascination for the potential of technology to solve intricate problems, and I am continually refining my skills in developing efficient and dependable software solutions. Throughout my academic coursework, I have collaborated with multiple teams on diverse projects, gaining experience in different areas of software development. In addition to my academic projects, I have completed various personal projects, including developing mobile applications, building my personal portfolio, and creating an obstacle-based game. These projects have given me the opportunity to work on my own, and I have developed strong problem-solving and debugging skills in the process.
+
+[CHATGPT WRITES THIS PARAGRAPH]
+
+Given my current work-term setup, I am available for either a 4 or 8-month co-op term and would be open to the possibility of participating in two consecutive terms. Thank you for considering my application. I look forward to the opportunity to further discuss how my skills and experience can contribute to your team. 
+
+
+Most Sincerely, 
+
+ 
+Arfaz Hossain
+
+________________________________________________________________________________
+
+ChatGPT, points to be noted from your responses that  I want you to be aware of:
+
+-> Write only one paragraph
+________________________________________________________________________________
+
+End of conversation 2
+________________________________________________________________________________
+*
+**
+***
+
+
+https://www.arfazhxss.com/
+https://www.linkedin.com/in/arfazhxss/
+
+imen bourguiba; imenbour@uvic.ca

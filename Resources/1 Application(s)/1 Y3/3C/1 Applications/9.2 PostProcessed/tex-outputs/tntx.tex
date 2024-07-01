@@ -1,0 +1,82 @@
+% Define the preamble
+\documentclass[a4paper, 12pt, oneside]{letter}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{adjustbox}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\usepackage[left=0.75in, right=0.75in, top=0.2in, bottom=0.5in]{geometry}
+\setlength{\parindent}{0pt}
+
+% Define the new ruler command
+\newcommand{\CustomRuler}{\vspace{0\baselineskip}\textcolor{black}{\rule{\linewidth}{0.5pt}}\vspace{-0.5\baselineskip}}
+
+% Define color for hyperlinks
+\definecolor{linkblue}{HTML}{0000FF} % Blue color
+
+% Set up hyperref package
+\hypersetup{
+	colorlinks=true,
+	linkcolor=linkblue, % Color of internal links
+	urlcolor=linkblue, % Color of URLs
+}
+
+% Redefine footer style to remove page number
+\fancypagestyle{plain}{
+	\fancyhf{} % Clear header and footer
+	\renewcommand{\headrulewidth}{0pt}
+}
+
+% Define variables
+\newcommand{\Position}{Cancer Screening Research}
+\newcommand{\CompanyName}{PHSA}
+\newcommand{\CompanyNameSuffix}{(Provincial Health Services Authority)}
+\newcommand{\Division}{Human Resources, Talent Acquisition}
+\newcommand{\LocationCity}{Greater Vancouver}
+\newcommand{\LocationState}{British Columbia}
+\newcommand{\Terms}{an 8-month}
+
+% Begin document
+\begin{document}
+\pagestyle{empty}
+
+% Header with name and links
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+	\raggedright
+	\vspace{3pt}
+	{\fontsize{30}{34}\selectfont Arfaz Hossain} \\
+	\vspace{2pt}
+	{\fontsize{12}{14}\selectfont Victoria, British Columbia}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+	\raggedleft
+	\vspace{1pt}
+	\href{https://www.github.com/arfazhxss}{\fontsize{12}{14}\selectfont www.github.com/arfazhxss} \\
+	\href{https://www.linkedin.com/in/arfazhussain}{\fontsize{12}{14}\selectfont www.linkedin.com/in/arfazhussain} \\
+	\href{https://arfazhxss.ca/resume.pdf}{\fontsize{12}{14}\selectfont arfazhxss.ca/resume.pdf}
+\end{minipage}
+
+% Custom ruler (or a line ------)
+\CustomRuler \vspace{20pt} \today \vspace{5pt}
+
+% Letter details
+\textbf{\CompanyName}\textbf{ \CompanyNameSuffix} \\
+\text{Division: \Division} \\
+\vspace{20pt}\text{Location: \LocationCity}, \text{\LocationState} \\
+\vspace{10pt}\text{Dear Hiring Manager:} \\
+ I am excited to apply for the {\fontsize{11}{11.5}\selectfont \bfseries \Position} Co-op Placement at {\fontsize{11}{11.5}\selectfont \bfseries \CompanyName}. I am a software engineering student at the University of Victoria in British Columbia. I am eager to learn and grow in the field of computer and software engineering, and I believe that this role will help me gain valuable work experience related to my interests and help me acquire a practical understanding in a real-world setting. \vspace{-7pt}\\\\
+{\fontsize{11}{11.5}\selectfont \bfseries I have a fascination for developing web and mobile applications, and I am continually learning new skills through personal projects outside school.} I have been involved in more than 13 software development projects, including developing an iOS weather application in Swift Programming Language, creating a 3D graphical simulation of a Rubik’s Cube in C++ and OpenGL, and developing web development projects in React, JavaScript, and TypeScript. I have been an active member of the Engineering and Computer Science Students Society and UVic Students Society, where I have worked as a mentor during my second year and volunteered in multiple events while engaging in software development projects throughout my time. \vspace{-7pt}\\\\
+{\fontsize{11}{11.5}\selectfont \bfseries Throughout my academic endeavours, I have had the chance to learn the basic concepts of object-oriented programming, software architecture and development, testing and evolution, data structures and algorithms.} I have actively contributed to UVic Rocketry and VikeLabs as a full-stack web developer, where I have spent much of my time collaborating and developing solutions to issues while reviewing code mostly written in TypeScript and Python. My experience includes developing schemas in both relational and non-relational databases such as MongoDB and PostgreSQL, utilizing database tools and services such as Prisma, PlanetScale, and Mongoose. Throughout my projects, I have used automation and testing frameworks such as Selenium, Puppeteer, Cyprus, JUnit, Maven, and Gradle. While working in teams at UVic Rocketry, I used ticketing tools such as Jira and Kanban. I plan to specialize in visual computing and data mining, involved in projects that are closely tied to my interests. My strength lies in my ability to work independently, collaborate, adapt to new environments, and gain familiarity with new tools necessary to excel in this role. \vspace{-7pt}\\\\
+{\fontsize{11}{11.5}\selectfont \bfseries I am currently available for \Terms\ work term and would be open to the possibility of participating in more than two consecutive terms.} Thank you for considering my application. I look forward to the opportunity to further discuss my skills and experience with \CompanyName. \\\\
+\vspace{10pt}\text{Most Sincerely,}
+\vspace{-25pt}\begin{flushleft}
+\hspace*{-1cm}\includegraphics[width=10cm]{../../9.1 PreProcessed/signature.png}\vspace{-1cm}
+\end{flushleft}
+\vspace{-10pt}\ps{\textbf{Arfaz Hossain} (He/Him)\\
+Software Engineering Student,\\
+University of Victoria} 
+\end{document}

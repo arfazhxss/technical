@@ -1,0 +1,29 @@
+Arfaz Hossain		
+4098 San Capri Terrace,			    			      
+Victoria, British Columbia	 				        
+
+Phone: (250) 880 8402
+Email: arfazhussain@uvic.ca
+LinkedIn: www.linkedin.com/in/arfazhussain
+Personal Portfolio: www.arfazhxss.com/#portfolio
+
+June 5, 2023
+
+Acturis (Victoria)
+Victoria, British Columbia
+
+Dear Hiring Manager:
+
+I am writing to apply for the Technical Business Analyst Co-op at Acturis. As someone who is always eager to learn and grow in my field, I believe that this is an excellent opportunity to gain valuable experience and enhance my skills in software development.
+
+I have a deep fascination for the potential of technology to solve intricate problems, and I am continually refining my skills in developing efficient and dependable software solutions. Throughout my academic coursework, I have collaborated with multiple teams on diverse projects, gaining experience in different areas of software development. In addition to my academic projects, I have completed several personal projects, including developing mobile applications, building my personal web portfolio, and creating an obstacle-based game using Java Swing. These projects have given me the opportunity to work on my own, and I have developed strong problem-solving and debugging skills in the process.
+
+In terms of the specific requirements outlined in the job posting, I am confident that my skills and experiences align with the qualifications sought for the role. I have experience in web and mobile development and design where I have utilized a range of tools and languages including C, C++, Java, JavaScript, Python, Swift and have also effectively utilized bash scripts and Git version control to automate my workflow. I have been involved in more than 10 academic and personal projects which have allowed me to explore various aspects of software development, from creating responsive and engaging user interfaces to implementing complex functionality. I am currently working on two separate mobile application development projects and actively working on 	my portfolio website using HTML, CSS, jQuery, Bootstrap and JavaScript. Alongside my technical abilities, I possess strong organizational, problem-solving, and time management skills, which I believe will greatly contribute to my effectiveness in this position. 
+
+Given my current work-term setup, I am available for either a 4 or 8-month co-op term and would be open to the possibility of participating in two consecutive terms. Thank you for considering my application. I look forward to the opportunity to further discuss how my skills and experience can contribute to Acturis. 
+
+Most Sincerely, 
+ 
+Arfaz Hossain (He/Him)
+2nd Year Software Engineering (BSEng) Student,
+University Of Victoria
