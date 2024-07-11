@@ -73,7 +73,7 @@ def main_scraper(urls):
     for i, url in enumerate(urls):
         url_queue.put((url, i+1))
 
-    drivers = [webdriver.Chrome(service=service, options=chrome_options) for _ in range(30)]
+    drivers = [webdriver.Chrome(service=service, options=chrome_options) for _ in range(15)]
     threads = []
 
     try:
