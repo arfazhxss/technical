@@ -63,7 +63,6 @@ def main_scraper(urls):
     chrome_options.add_argument(f"user-agent={customUserAgent}")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-
     service = Service(ChromeDriverManager().install())
     
     total = len(urls)
@@ -71,9 +70,9 @@ def main_scraper(urls):
     url_queue = queue.Queue()
 
     for i, url in enumerate(urls):
-        url_queue.put((url, i+1))
+        url_queue.put((url, i+1))   
 
-    drivers = [webdriver.Chrome(service=service, options=chrome_options) for _ in range(15)]
+    drivers = [webdriver.Chrome(service=service, options=chrome_options) for _ in range(5)]
     threads = []
 
     try:
