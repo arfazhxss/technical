@@ -3,21 +3,19 @@ import unittest
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        freq = {}
-        for num in nums:
-            freq[num] = 1 + freq.get(num, 0)
+        a = {}
+        for i in range(len(nums)):
+            a[nums[i]]=1+a.get(nums[i],0)
         
         buckets = [[] for _ in range(len(nums) + 1)]
+        [buckets[v].append(k) for k, v in a.items()]
         
-        for num, count in freq.items():
-            buckets[count].append(num)
-        
+        print("TEST1",buckets)
         result = []
         for i in range(len(buckets) - 1, 0, -1):
             result.extend(buckets[i])
             if len(result) >= k:
                 return result[:k]
-        
         return result
 
 class TestSolution(unittest.TestCase):
