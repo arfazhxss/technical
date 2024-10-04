@@ -1,0 +1,63 @@
+Arfaz Hussain
+
+Write a function to set (1) a particular bit in a 16 bit value
+
+void setBit (int val, int position) {
+
+}
+
+void setBit (int* val, int position) { 
+  *val = *val | (1 << position); 
+  return;
+}
+
+int
+main(void)
+{
+	uint16_t x = 0x00;
+	
+	set_bit(&x, 1);
+	
+	// x = 0x01
+	
+	set_bit(&x, 2);
+	
+	// x = 0x03
+	
+	return 0;
+}
+
+
+3 => 0b 1000
+ #76543210
+0b00000001
+
+>> right shift   0b010 >> 1 = 0b001
+<< left shift    0b001 << 1 = 0b010 // 0010 ---- 1000
+
+-------------------------------------------------------------------
+
+
+/* Compute Powers of 2 */
+#include <stdio.h>
+#include <math.io>
+
+int power (int* x)
+{
+	return pow(2, *x) 
+}
+
+int main (void)
+{
+    int x = 2;
+    int repeat = 3;
+    int i = 0;
+    int result;
+    while (i<=repeat)
+		{
+        result = power(&i);
+    		printf("2 to power of %d is %d\n", i++, result);
+    }
+    return 0;
+}
+
