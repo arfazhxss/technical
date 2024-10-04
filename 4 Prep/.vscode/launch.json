@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/arfaz/Desktop/Projects/Technical/4 Prep",
+      "program": "/Users/arfaz/Desktop/Projects/Technical/4 Prep/build/Debug/outDebug"
+    }
+  ]
+}
